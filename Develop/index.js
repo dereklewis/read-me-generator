@@ -2,6 +2,7 @@
 const inquirer = require("inquirer")
 const fs = require("fs");
 const Choices = require("inquirer/lib/objects/choices");
+const generateMarkdown = require("./utils/generateMarkdown")
 
 
 
@@ -36,23 +37,40 @@ const questions = [
         choices: ["MIT", "Other"],
     },
     {
-        type: ,
-        name: ,
-        message: ,
-    }
+        type: "input",
+        name: "installation",
+        message: "What commands should we run for dependencies?",
+        default: "npm i",
+    },
+    {  
+        type: "input",
+        name: "test",
+        message: "What commands should be run for tests?",
+        default: "npm run test", 
+     },
+     {
+         type: "input",
+         name: "contributor",
+         message: "How does a user contribute to this project?"
+     }
     
 ];
 
-inquirer.prompt(questions).then((data) => {
-    console.log(data);
-})
 
 
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
-// // TODO: Create a function to initialize app
-// function init() {}
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
 
-// // Function call to initialize app
-// init();
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions).then((data) => {
+        
+        fs.writeFile("README.md", JSON.stringify(data), (err) => {
+            err ? console.log(err) : console.log("File was written!!");
+        })
+    });
+}
+
+// Function call to initialize app
+init();
