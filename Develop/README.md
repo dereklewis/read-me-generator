@@ -1,7 +1,7 @@
-# Derek Lewis
+# README Generator
 
 ## Description
-It is designed to create README files
+It automatically generates readme
 
 
 ## Table of Contents 
@@ -18,16 +18,14 @@ npm i
 
 
 ## Usage
-
+follow the prompts to gen
     
-
+##Contribute
+email me
 
 ## License
 MIT
 [https://opensource.org/licenses/MIT/](https://opensource.org/licenses/MIT).
-
-email me
-
 
 ## Tests
 npm run test
@@ -36,5 +34,5 @@ npm run test
 ## Questions
 dereklewis
 
-derek.lewis513@gmail.com
+derek@derek.der
 
