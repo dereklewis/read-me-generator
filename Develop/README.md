@@ -1,1 +1,1 @@
-{"github":"dereklewis","email":"derek.lewis513@gmail.com","title":"README Generator","description":"it generates automatic ReadMe files","license":"MIT","installation":"npm i","test":"npm run test","contributor":"email me"}
+{"github":"dereklewis","email":"derek.lewis513@gmail.com","title":"ReadMe Generator","description":"it generates automatic ReadMe files","license":"MIT","installation":"npm i","test":"npm run test","contributor":"email me"}
