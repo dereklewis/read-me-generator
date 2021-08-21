@@ -1,7 +1,10 @@
 # README Generator
 
 ## Description
-It automatically generates readme
+This application prompts the user to answer questions and loads the data into a README file
+
+
+
 
 
 ## Table of Contents 
@@ -17,22 +20,50 @@ npm i
 
 
 
+
+
+
 ## Usage
-follow the prompts to gen
+The user answers questions to populate the README
     
-##Contribute
-email me
+[https://drive.google.com/file/d/14NawrX9hGroPBMNT7UnGp2WYWC5p-hS7/view](https://drive.google.com/file/d/14NawrX9hGroPBMNT7UnGp2WYWC5p-hS7/view)
+
+
+
+
+## Contribute
+
+
+Email Derek for details
+
+
+
+
+
+
 
 ## License
 MIT
 [https://opensource.org/licenses/MIT/](https://opensource.org/licenses/MIT).
 
+
+
+
+
+
+
 ## Tests
 npm run test
+
+
+
+
+
+
 
 
 ## Questions
 dereklewis
 
-derek@derek.der
+derek.lewis513@gmail.com
 
